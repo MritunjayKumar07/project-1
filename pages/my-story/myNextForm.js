@@ -39,6 +39,7 @@ function sendMail() {
     site_name: "Brothers Photography",
     message: `${myForm}${myFormNext}`,
   };
+  // https://www.youtube.com/watch?v=BgVjild0C9A
   emailjs
     .send("your_service_id", "your_template_id", parms)
     .then(alert(`Thankyou to contact us. We contact you soon!!`));
