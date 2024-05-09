@@ -349,13 +349,6 @@ title {
   #main-section .banner-section {
     height: 300px;
   }
-  
-  #main-section .banner-section img {
-    width: 85%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-  }
 }
 
 @media (max-width: 768px) {
